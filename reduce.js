@@ -56,7 +56,7 @@ Examples:
 
 function addKeyAndValue(arr, key, value) {
     return arr.reduce(function(accum, nextVal, index) {
-        accum[index][key] = val;
+        accum[index][key] = value;
         return accum;
     }, arr);
 }
@@ -85,6 +85,6 @@ Examples:
 
 function partition(arr, callback) {
     return arr.reduce(function(accum, nextVal) {
-        
+
     })
 }
